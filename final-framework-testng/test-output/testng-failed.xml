@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Sample test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Sample test(failed)">
     <classes>
-      <class name="com.training.regression.tests.LoginExcelTest">
+      <class name="com.training.sanity.tests.RETC_019">
         <methods>
-          <include name="tearDown"/>
-          <include name="loginDBTest" invocation-numbers="3 4"/>
           <include name="setUpBeforeClass"/>
+          <include name="tearDown"/>
+          <include name="categories"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.training.regression.tests.LoginExcelTest -->
+      </class> <!-- com.training.sanity.tests.RETC_019 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Sample test(failed) -->
+</suite> <!-- Failed suite [Sample test Suite] -->
