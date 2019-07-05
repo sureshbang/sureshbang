@@ -1,116 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-06-27T09:32:31Z" name="Sample test Suite" finished-at="2019-06-27T09:36:05Z" duration-ms="213686">
+  <suite started-at="2019-07-05T18:27:19Z" name="Default suite" finished-at="2019-07-05T18:27:52Z" duration-ms="32367">
     <groups>
     </groups>
-    <test started-at="2019-06-27T09:32:31Z" name="Sample test" finished-at="2019-06-27T09:36:05Z" duration-ms="213686">
-      <class name="com.training.sanity.tests.RETC_020">
-        <test-method is-config="true" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RETC_020@fd07cbb]" started-at="2019-06-27T09:35:32Z" name="setUpBeforeClass" finished-at="2019-06-27T09:35:32Z" duration-ms="0" status="PASS">
+    <test started-at="2019-07-05T18:27:19Z" name="Default test" finished-at="2019-07-05T18:27:52Z" duration-ms="32367">
+      <class name="com.training.sanity.tests.RETC_050">
+        <test-method is-config="true" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RETC_050@2b4bac49]" started-at="2019-07-05T18:27:19Z" name="setUpBeforeClass" finished-at="2019-07-05T18:27:19Z" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.training.sanity.tests.RETC_020@fd07cbb]" started-at="2019-06-27T09:35:32Z" name="setUp" finished-at="2019-06-27T09:35:45Z" duration-ms="12949" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.training.sanity.tests.RETC_050@2b4bac49]" started-at="2019-07-05T18:27:19Z" name="setUp" finished-at="2019-07-05T18:27:36Z" duration-ms="16179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="categories()[pri:0, instance:com.training.sanity.tests.RETC_020@fd07cbb]" started-at="2019-06-27T09:35:45Z" name="categories" finished-at="2019-06-27T09:36:03Z" duration-ms="17709" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- categories -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RETC_020@fd07cbb]" started-at="2019-06-27T09:36:03Z" name="tearDown" finished-at="2019-06-27T09:36:05Z" duration-ms="1964" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.RETC_020 -->
-      <class name="com.training.sanity.tests.LoginTests">
-        <test-method is-config="true" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.LoginTests@fa36558]" started-at="2019-06-27T09:32:31Z" name="setUpBeforeClass" finished-at="2019-06-27T09:32:31Z" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBeforeClass -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.training.sanity.tests.LoginTests@fa36558]" started-at="2019-06-27T09:32:31Z" name="setUp" finished-at="2019-06-27T09:32:46Z" duration-ms="14678" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.LoginTests@fa36558]" started-at="2019-06-27T09:32:46Z" name="validLoginTest" finished-at="2019-06-27T09:32:52Z" duration-ms="6507" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.sanity.tests.LoginTests@fa36558]" started-at="2019-06-27T09:32:52Z" name="tearDown" finished-at="2019-06-27T09:32:54Z" duration-ms="1911" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.LoginTests -->
-      <class name="com.training.sanity.tests.RETC_018">
-        <test-method is-config="true" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RETC_018@3f56875e]" started-at="2019-06-27T09:34:13Z" name="setUpBeforeClass" finished-at="2019-06-27T09:34:13Z" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBeforeClass -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.training.sanity.tests.RETC_018@3f56875e]" started-at="2019-06-27T09:34:13Z" name="setUp" finished-at="2019-06-27T09:34:26Z" duration-ms="13063" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="categories()[pri:0, instance:com.training.sanity.tests.RETC_018@3f56875e]" started-at="2019-06-27T09:34:26Z" name="categories" finished-at="2019-06-27T09:34:41Z" duration-ms="15641" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- categories -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RETC_018@3f56875e]" started-at="2019-06-27T09:34:41Z" name="tearDown" finished-at="2019-06-27T09:34:43Z" duration-ms="1947" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.RETC_018 -->
-      <class name="com.training.sanity.tests.RETC_019">
-        <test-method is-config="true" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RETC_019@2b4bac49]" started-at="2019-06-27T09:34:43Z" name="setUpBeforeClass" finished-at="2019-06-27T09:34:43Z" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBeforeClass -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.training.sanity.tests.RETC_019@2b4bac49]" started-at="2019-06-27T09:34:43Z" name="setUp" finished-at="2019-06-27T09:34:56Z" duration-ms="12581" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="categories()[pri:0, instance:com.training.sanity.tests.RETC_019@2b4bac49]" started-at="2019-06-27T09:34:56Z" name="categories" finished-at="2019-06-27T09:35:30Z" duration-ms="34211" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="menu-posts"]/a/div[3]"}
-  (Session info: chrome=75.0.3770.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'IBM273-PC0DZ9L5', ip: '9.79.245.2', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\IBM_AD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56380}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 00cf3cfd388693ee2e43fc30cf0f094a
-*** Element info: {Using=xpath, value=//*[@id="menu-posts"]/a/div[3]}]]>
-            </message>
+        <test-method signature="properties()[pri:0, instance:com.training.sanity.tests.RETC_050@2b4bac49]" started-at="2019-07-05T18:27:36Z" name="properties" finished-at="2019-07-05T18:27:50Z" duration-ms="14020" status="FAIL">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="menu-posts"]/a/div[3]"}
-  (Session info: chrome=75.0.3770.100)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'IBM273-PC0DZ9L5', ip: '9.79.245.2', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\IBM_AD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56380}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 00cf3cfd388693ee2e43fc30cf0f094a
-*** Element info: {Using=xpath, value=//*[@id="menu-posts"]/a/div[3]}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy13.click(Unknown Source)
-at com.training.pom.RETC_019_Home_POM.postLink(RETC_019_Home_POM.java:71)
-at com.training.sanity.tests.RETC_019.categories(RETC_019.java:57)
+              <![CDATA[java.lang.NullPointerException
+at com.training.sanity.tests.RETC_050.properties(RETC_050.java:78)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -138,51 +47,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- categories -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RETC_019@2b4bac49]" started-at="2019-06-27T09:35:30Z" name="tearDown" finished-at="2019-06-27T09:35:32Z" duration-ms="1910" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.RETC_019 -->
-      <class name="com.training.sanity.tests.RETC_016">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.training.sanity.tests.RETC_016@672872e1]" started-at="2019-06-27T09:32:54Z" name="setUp" finished-at="2019-06-27T09:33:08Z" duration-ms="13848" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RETC_016@672872e1]" started-at="2019-06-27T09:32:54Z" name="setUpBeforeClass" finished-at="2019-06-27T09:32:54Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBeforeClass -->
-        <test-method signature="categories()[pri:0, instance:com.training.sanity.tests.RETC_016@672872e1]" started-at="2019-06-27T09:33:08Z" name="categories" finished-at="2019-06-27T09:33:28Z" duration-ms="20245" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- categories -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RETC_016@672872e1]" started-at="2019-06-27T09:33:28Z" name="tearDown" finished-at="2019-06-27T09:33:29Z" duration-ms="1008" status="PASS">
+        </test-method> <!-- properties -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RETC_050@2b4bac49]" started-at="2019-07-05T18:27:50Z" name="tearDown" finished-at="2019-07-05T18:27:52Z" duration-ms="2133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.RETC_016 -->
-      <class name="com.training.sanity.tests.RETC_017">
-        <test-method is-config="true" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RETC_017@32910148]" started-at="2019-06-27T09:33:29Z" name="setUpBeforeClass" finished-at="2019-06-27T09:33:29Z" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBeforeClass -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.training.sanity.tests.RETC_017@32910148]" started-at="2019-06-27T09:33:29Z" name="setUp" finished-at="2019-06-27T09:33:45Z" duration-ms="15357" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="categories()[pri:0, instance:com.training.sanity.tests.RETC_017@32910148]" started-at="2019-06-27T09:33:45Z" name="categories" finished-at="2019-06-27T09:34:11Z" duration-ms="26124" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- categories -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RETC_017@32910148]" started-at="2019-06-27T09:34:11Z" name="tearDown" finished-at="2019-06-27T09:34:13Z" duration-ms="1949" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.RETC_017 -->
-    </test> <!-- Sample test -->
-  </suite> <!-- Sample test Suite -->
+      </class> <!-- com.training.sanity.tests.RETC_050 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

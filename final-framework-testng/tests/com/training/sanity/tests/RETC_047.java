@@ -12,18 +12,18 @@ import org.testng.annotations.Test;
 
 import com.training.generics.ScreenShot;
 import com.training.pom.LoginPOM;
-import com.training.pom.RETC_016_POM;
+import com.training.pom.RETC_047_POM;
 import com.training.utility.DriverFactory;
 import com.training.utility.DriverNames;
 
-public class RETC_016 {
+public class RETC_047 {
 	
 	private WebDriver driver;
 	private String baseUrl;
 	private LoginPOM loginPOM;
 	private static Properties properties;
 	private ScreenShot screenShot;
-	private RETC_016_POM RETC_016_POM;
+	private RETC_047_POM RETC_047_POM;
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws IOException {
@@ -36,7 +36,7 @@ public class RETC_016 {
 	public void setUp() throws Exception {
 		driver = DriverFactory.getDriver(DriverNames.CHROME);
 		loginPOM = new LoginPOM(driver); 
-		RETC_016_POM = new RETC_016_POM(driver);
+		RETC_047_POM = new RETC_047_POM(driver);
 		baseUrl = properties.getProperty("baseURL");
 		screenShot = new ScreenShot(driver); 
 		// open the browser 
@@ -46,7 +46,7 @@ public class RETC_016 {
 	
 	
   @Test
-  public void categories() throws InterruptedException 
+  public void properties() throws InterruptedException 
       {
 	  
 	    loginPOM.loginlinkclick();
@@ -54,13 +54,24 @@ public class RETC_016 {
 		loginPOM.sendPassword("adminuser@12345");
 		loginPOM.clickLoginBtn(); 
 		screenShot.captureScreenShot("First");
-		RETC_016_POM.postLink();
-		Thread.sleep(2000);
-		RETC_016_POM.allPostsLink();
-		//RETC_016_POM.addNewButton();
-		RETC_016_POM.rowTitle();
-		Thread.sleep(2000);
-		RETC_016_POM.clickUndoLink();
+		RETC_047_POM.propertiesLinkclick();
+		RETC_047_POM.addNewButtonclick();	
+		RETC_047_POM.addNewFeatureLinkClick();
+		RETC_047_POM.addTextInTextBox("interior");
+		RETC_047_POM.parentTypeDropDown();
+		
+		RETC_047_POM.addNewFeatureButtonClick();
+		Thread.sleep(5000);
+		driver.navigate().refresh();
+		
+		
+		  RETC_047_POM.enterTileText("prestige4777");
+		  RETC_047_POM.textAreaBox("home town47777"); 
+		  RETC_047_POM.featureCheckkBox();
+		  Thread.sleep(5000);
+		  
+		  RETC_047_POM.publishButtonClick();
+		 System.out.println(" !! Congrats !! Suresh- RETC 047 Test case is Passed ");
 		
       }
 	    
@@ -70,5 +81,5 @@ public class RETC_016 {
 	public void tearDown() throws Exception {
 		Thread.sleep(1000);
 		driver.quit();
-}
+                   }
 }
